@@ -1,0 +1,1 @@
+sed -i.bak -e "s/^bootstrap-peers *=.*/bootstrap-peers = \"$BOOTSTRAP_PEERS\"/" $edHOME/.celestia-app/config/config.toml
